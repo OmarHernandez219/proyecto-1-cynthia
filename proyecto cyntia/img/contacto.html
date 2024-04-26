@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<link href="https://fonts.cdnfonts.com/css/la-unica" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/thumbs-down" rel="stylesheet">
+    <title>proyecto de miguel cruz y omar hernandez</title>
+</head>
+<body>
+
+    <style>
+
+        h1{
+            color: rgb(0, 0, 0);
+            text-align: center;
+            font-family: cursive;
+            
+        }
+
+        h2{
+            color: rgb(0, 0, 0);
+            font-family: cursive;
+            text-align: center;
+        }
+
+        .contact-form{
+            text-align: center;
+        }
+
+        text{
+
+            text-align: center;
+        }
+
+        table{
+            width: 80%;
+            margin-top: 20px;
+            border-collapse: collapse;
+            box-shadow: 0 5px 15px black;
+            margin-left:50px ;
+        }
+        
+        tr:nth-child(even){
+            background-color: rgb(7, 221, 36);
+        }
+        tr:hover{
+            background-color: rgb(7, 221, 36);
+        }
+
+
+    </style>
+    <div style="margin: 10px">
+        <nav class="navbar navbar-light"
+        style="background-color:rgb(7, 221, 36);" >
+        <!-- Contenido sobre sustentabilidad -->
+        <h1>contacto</h1>
+        <br>
+        <a href="index.html">ㅤㅤㅤInicioㅤㅤㅤ</a>
+        <a href="servicios.html">ㅤ ㅤㅤServiciosㅤㅤㅤ</a>
+        <a href="contacto.html">ㅤ ㅤㅤContactoㅤㅤㅤ</a>
+        <a href="noticias.html">ㅤ ㅤㅤNoticiasㅤㅤㅤ</a>
+        <a href="reciclaje.html">ㅤ ㅤㅤReciclajeㅤㅤㅤ</a>
+        <a href="https://www.google.com/">ㅤ ㅤㅤEnlaces Externosㅤㅤㅤ</a>
+        <!-- jQuery -->
+        </nav>
+     </div>
+
+     <h2>Contacto</h2>
+     <p>ㅤ ㅤㅤㅤ ㅤㅤㅤ ㅤㅤpuedes enviarnos tus preguntas sobres sustentabilidad y medio ambiente o consultar adicionales atraves de este formularios</p>
+
+     <table>
+     <form id="contact-form">
+        <td> <label for="name">Nombre</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">correo electronico</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="message">Mensaje</label><br>
+        <textarea name="message" id="message" rows="4" required></textarea><br><br>
+
+        <input type="submit" value="enviar">
+     </form>
+     <br>
+     <br>
+     </td>
+    </table>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
